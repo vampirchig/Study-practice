@@ -17,7 +17,7 @@ public:
     ~Authorization();
 
 private slots:
-    void on_pushButton_clicked();
+    void on_logInButton_clicked();
 
 private:
     Ui::Authorization *ui;

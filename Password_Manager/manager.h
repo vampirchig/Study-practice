@@ -15,6 +15,14 @@ public:
     Manager(QWidget *parent = nullptr);
     ~Manager();
 
+signals:
+    void firstWindow();  // Сигнал для первого окна на открытие
+
+private slots:
+    void on_LogOut_clicked();
+
+    void on_AddAccount_clicked();
+
 private:
     Ui::Manager *ui;
 };
