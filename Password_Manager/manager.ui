@@ -14,224 +14,6 @@
    <string>Manager</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QScrollArea" name="PasswordArea">
-    <property name="geometry">
-     <rect>
-      <x>230</x>
-      <y>10</y>
-      <width>541</width>
-      <height>351</height>
-     </rect>
-    </property>
-    <property name="verticalScrollBarPolicy">
-     <enum>Qt::ScrollBarAlwaysOn</enum>
-    </property>
-    <property name="sizeAdjustPolicy">
-     <enum>QAbstractScrollArea::AdjustToContentsOnFirstShow</enum>
-    </property>
-    <property name="widgetResizable">
-     <bool>true</bool>
-    </property>
-    <widget class="QWidget" name="scrollAreaWidgetContents">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>0</y>
-       <width>522</width>
-       <height>349</height>
-      </rect>
-     </property>
-     <layout class="QVBoxLayout" name="verticalLayout_11">
-      <item>
-       <widget class="QGroupBox" name="groupBox">
-        <property name="minimumSize">
-         <size>
-          <width>504</width>
-          <height>121</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>504</width>
-          <height>121</height>
-         </size>
-        </property>
-        <property name="title">
-         <string>0</string>
-        </property>
-        <widget class="QWidget" name="">
-         <property name="geometry">
-          <rect>
-           <x>262</x>
-           <y>20</y>
-           <width>211</width>
-           <height>59</height>
-          </rect>
-         </property>
-         <layout class="QVBoxLayout" name="verticalLayout">
-          <item>
-           <layout class="QHBoxLayout" name="horizontalLayout_4">
-            <item>
-             <widget class="QLabel" name="PhoneLabel">
-              <property name="minimumSize">
-               <size>
-                <width>41</width>
-                <height>0</height>
-               </size>
-              </property>
-              <property name="text">
-               <string>Номер</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QLabel" name="Phone">
-              <property name="text">
-               <string>TextLabel</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </item>
-          <item>
-           <layout class="QHBoxLayout" name="horizontalLayout_5">
-            <item>
-             <widget class="QLabel" name="mailLabel">
-              <property name="minimumSize">
-               <size>
-                <width>41</width>
-                <height>0</height>
-               </size>
-              </property>
-              <property name="text">
-               <string>Почта</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QLabel" name="mail">
-              <property name="text">
-               <string>TextLabel</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </item>
-          <item>
-           <layout class="QHBoxLayout" name="horizontalLayout_51">
-            <item>
-             <widget class="QLabel" name="linkLabel">
-              <property name="minimumSize">
-               <size>
-                <width>41</width>
-                <height>0</height>
-               </size>
-              </property>
-              <property name="text">
-               <string>Ссылка</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QLabel" name="link">
-              <property name="text">
-               <string>TextLabel</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </item>
-         </layout>
-        </widget>
-        <widget class="QWidget" name="">
-         <property name="geometry">
-          <rect>
-           <x>30</x>
-           <y>20</y>
-           <width>201</width>
-           <height>59</height>
-          </rect>
-         </property>
-         <layout class="QVBoxLayout" name="verticalLayout_2">
-          <item>
-           <layout class="QHBoxLayout" name="horizontalLayout_3">
-            <item>
-             <widget class="QLabel" name="descriptionLabel">
-              <property name="minimumSize">
-               <size>
-                <width>41</width>
-                <height>0</height>
-               </size>
-              </property>
-              <property name="text">
-               <string>Сайт</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QLabel" name="description">
-              <property name="text">
-               <string>TextLabel</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </item>
-          <item>
-           <layout class="QHBoxLayout" name="horizontalLayout_2">
-            <item>
-             <widget class="QLabel" name="loginLabel">
-              <property name="minimumSize">
-               <size>
-                <width>41</width>
-                <height>0</height>
-               </size>
-              </property>
-              <property name="text">
-               <string>Логин</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QLabel" name="login">
-              <property name="text">
-               <string>TextLabel</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </item>
-          <item>
-           <layout class="QHBoxLayout" name="horizontalLayout">
-            <item>
-             <widget class="QLabel" name="passwordLabel">
-              <property name="minimumSize">
-               <size>
-                <width>41</width>
-                <height>0</height>
-               </size>
-              </property>
-              <property name="text">
-               <string>Пароль</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QLabel" name="password">
-              <property name="text">
-               <string>TextLabel</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </item>
-         </layout>
-        </widget>
-       </widget>
-      </item>
-     </layout>
-    </widget>
-   </widget>
    <widget class="QPushButton" name="AddAccount">
     <property name="geometry">
      <rect>
@@ -280,6 +62,297 @@
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;В субботу сдавать, а&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;     я нихуя не сделал&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
+   </widget>
+   <widget class="QScrollArea" name="PasswordArea">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>10</y>
+      <width>559</width>
+      <height>359</height>
+     </rect>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOn</enum>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QAbstractScrollArea::AdjustToContentsOnFirstShow</enum>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>540</width>
+       <height>357</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_11">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout3">
+        <item>
+         <widget class="QGroupBox" name="groupBox_4">
+          <property name="minimumSize">
+           <size>
+            <width>504</width>
+            <height>131</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>504</width>
+            <height>131</height>
+           </size>
+          </property>
+          <property name="title">
+           <string>0</string>
+          </property>
+          <widget class="QWidget" name="layoutWidget_24">
+           <property name="geometry">
+            <rect>
+             <x>262</x>
+             <y>20</y>
+             <width>221</width>
+             <height>59</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_26">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_71">
+              <item>
+               <widget class="QLabel" name="PhoneLabel_13">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Номер</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="Phone_13">
+                <property name="text">
+                 <string>89998998998</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_72">
+              <item>
+               <widget class="QLabel" name="mailLabel_13">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Почта</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="mail_13">
+                <property name="text">
+                 <string>почта@mail.ru</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_73">
+              <item>
+               <widget class="QLabel" name="linkLabel_13">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Ссылка</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="link_13">
+                <property name="text">
+                 <string>https://vk.com</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="layoutWidget_25">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>20</y>
+             <width>201</width>
+             <height>59</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_27">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_74">
+              <item>
+               <widget class="QLabel" name="descriptionLabel_13">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Сайт</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="description_13">
+                <property name="text">
+                 <string>например вк</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_75">
+              <item>
+               <widget class="QLabel" name="loginLabel_13">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Логин</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="login_13">
+                <property name="text">
+                 <string>логина нет</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_76">
+              <item>
+               <widget class="QLabel" name="passwordLabel_13">
+                <property name="minimumSize">
+                 <size>
+                  <width>41</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Пароль</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="password_13">
+                <property name="text">
+                 <string>пароль тут</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="layoutWidget">
+           <property name="geometry">
+            <rect>
+             <x>26</x>
+             <y>90</y>
+             <width>441</width>
+             <height>33</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <item>
+             <widget class="QPushButton" name="linkButton_2">
+              <property name="minimumSize">
+               <size>
+                <width>31</width>
+                <height>31</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>31</width>
+                <height>31</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Link</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="editButton_2">
+              <property name="minimumSize">
+               <size>
+                <width>31</width>
+                <height>31</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>31</width>
+                <height>31</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Edt</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="deleteButton_2">
+              <property name="minimumSize">
+               <size>
+                <width>31</width>
+                <height>31</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>31</width>
+                <height>31</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Del</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
    </widget>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>

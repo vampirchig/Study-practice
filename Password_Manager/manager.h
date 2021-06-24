@@ -2,6 +2,7 @@
 #define MANAGER_H
 
 #include <QMainWindow>
+#include <addnew.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Manager; }
@@ -17,6 +18,10 @@ public:
 
 signals:
     void firstWindow();  // Сигнал для первого окна на открытие
+    void test();
+
+public slots:
+    void addNewBox();
 
 private slots:
     void on_LogOut_clicked();
@@ -25,5 +30,6 @@ private slots:
 
 private:
     Ui::Manager *ui;
+    AddNew *addbox;
 };
 #endif // MANAGER_H

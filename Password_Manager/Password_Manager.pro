@@ -9,22 +9,23 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    accountbox.cpp \
     addnew.cpp \
     authorization.cpp \
     main.cpp \
-    manager.cpp
+    manager.cpp \
+    userbox.cpp
 
 HEADERS += \
-    accountbox.h \
     addnew.h \
     authorization.h \
-    manager.h
+    manager.h \
+    userbox.h
 
 FORMS += \
     addnew.ui \
     authorization.ui \
-    manager.ui
+    manager.ui \
+    userbox.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

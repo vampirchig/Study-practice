@@ -1,7 +1,5 @@
 #include "addnew.h"
 #include "ui_addnew.h"
-#include "accountbox.h"
-#include "manager.h"
 
 AddNew::AddNew(QWidget *parent) :
     QDialog(parent),
@@ -32,14 +30,10 @@ void AddNew::on_pushButton_2_clicked()//очищаем введенные дан
 }
 
 
-void AddNew::on_pushButton_clicked()
+void AddNew::on_pushButton_clicked()//подтвердить заполнение аккаунта
 {
     this->close();
-    emit addNew();
-
-
-
-
+    emit okClicked();
 }
 
 

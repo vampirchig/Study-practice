@@ -3,7 +3,6 @@
 
 #include <QDialog>
 
-
 namespace Ui {
 class AddNew;
 }
@@ -17,7 +16,7 @@ public:
     ~AddNew();
 
 signals:
-  void addNew();
+    void okClicked();
 
 private slots:
     void on_pushButton_3_clicked();//отмена
