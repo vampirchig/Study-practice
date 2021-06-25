@@ -2,6 +2,9 @@
 #define ADDNEW_H
 
 #include <QDialog>
+#include <QSqlDatabase>
+#include <QDebug>
+#include <QSqlQuery>
 
 namespace Ui {
 class AddNew;
@@ -27,6 +30,8 @@ private slots:
 
 private:
     Ui::AddNew *ui;
+    QSqlDatabase db;
+    QSqlQuery *query;
 };
 
 #endif // ADDNEW_H

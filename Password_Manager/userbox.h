@@ -15,6 +15,9 @@ public:
     explicit userbox(QWidget *parent = nullptr);
     ~userbox();
 
+private slots:
+    void on_deleteButton_2_clicked();
+
 private:
     Ui::userbox *ui;
 };

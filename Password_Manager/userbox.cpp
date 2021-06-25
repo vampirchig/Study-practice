@@ -12,3 +12,9 @@ userbox::~userbox()
 {
     delete ui;
 }
+
+void userbox::on_deleteButton_2_clicked()
+{
+    delete(this);
+}
+

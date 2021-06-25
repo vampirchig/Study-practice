@@ -6,6 +6,18 @@ AddNew::AddNew(QWidget *parent) :
     ui(new Ui::AddNew)
 {
     ui->setupUi(this);
+    db = QSqlDatabase::addDatabase("QSQLITE");
+    db.setDatabaseName("./ManagerDB.db");
+    if(db.open())
+    {
+        qDebug("open");
+    }
+    else
+    {
+        qDebug("not open");
+    }
+
+    query = new QSqlQuery(db);
 }
 
 AddNew::~AddNew()
@@ -35,5 +47,3 @@ void AddNew::on_pushButton_clicked()//подтвердить заполнени�
     this->close();
     emit okClicked();
 }
-
-
